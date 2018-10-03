@@ -3,23 +3,100 @@
     padding: 0;
     background-color: aqua;
 }
-li{
+nav ul li{
     display: block;
     float: right;
+    margin-bottom: 10px;
 }
 
 h1{
+    display: inline-block;
     color:blue;
     text-align: center;
-    margin-left: 400px;
+    margin-left: 530px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
+
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     width: 150px;
     height: 200px;
     border-radius:50%;
 -moz-border-radius:40%;
 -webkit-border-radius:50%;
+}
+body{
+    height: 100%;
+}
+.centermain{
+    height: 100%;
+    display: block;
+    width: 570px;
+    margin-left: 400px;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+#Honours{
+    color: red;
+}
+.bright{
+    color:red;
+}
+
+.bright a:nth-child(2n+1){
+    color:white;
+    background-color: cadetblue; 
+    text-decoration: none;
+    display: inline-block;
+    height: 20px;
+    padding: 5px;
+    margin-right: -2px;
+    
+}
+.bright a:nth-child(2n+2){
+    color:white;
+    background-color: orangered; 
+    text-decoration: none;
+    display: inline-block;
+    height: 20px;
+    padding: 5px;
+    margin-right: -2px;
+    
+}
+
+.interesting ol{
+    list-style-type: decimal;
+    display: inline-block;
+    margin-left: 415px;
+    color: blue;
+    
+    font: 600 20px/0.7 'Great Vibes', Helvetica, sans-serif;
+}
+div p{
+    height: 100%;
+    display: block;
+    width: 581px;
+    margin-left: 400px;
+}
+h3{
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+h3,iframe{
+    height: 100%;
+    display: block;
+    width: 570px;
+    margin-left: 400px;
 }
