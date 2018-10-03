@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+li{
+    display: block;
+    float: right;
+}
+
+h1{
+    color:blue;
+    text-align: center;
+    margin-left: 400px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 200px;
+    border-radius:50%;
+-moz-border-radius:40%;
+-webkit-border-radius:50%;
+}
